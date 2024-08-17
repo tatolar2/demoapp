@@ -1,0 +1,40 @@
+Add endpoint documentations for our test pages
+
+Route path: /add-employee (This path can have anything, it is up to you to choose a path name that describes what we want the request to do)
+Request Method: POST
+Request Sample: JSON
+JSON
+
+{
+  "first_name": "John",
+  "last_name": "Doe",
+  "email": "johndoe@gmail.com"
+   "password": "123456"
+}
+
+Response Format: JSON
+
+Response Sample: JSON
+
+{
+  "status": "success",
+}
+
+Log in
+Route path: /login
+Request Method: POST
+Request Sample: JSON
+
+{
+  "email": "joe@gmail.com",
+  "password": "123456"
+}
+
+Response Format: JSON
+
+Response Sample: JSON
+
+{
+  "status": "success",
+  "message": "Employee logged in successfully"
+}
