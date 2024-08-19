@@ -8,7 +8,7 @@ JSON
 {
   "first_name": "John",
   "last_name": "Doe",
-  "email": "johndoe@gmail.com"
+  "email": "johndoe@gmail.com",
    "password": "123456"
 }
 
