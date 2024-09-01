@@ -20,7 +20,7 @@ function Login() {
     // Check if the data is being captured correctly
     console.log(loginData);
     // Send the data to the server
-    const apiUrl = "http://localhost:4000/login";
+    const apiUrl = "http://13.60.105.25:4000/login";
     const requestOptions = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
